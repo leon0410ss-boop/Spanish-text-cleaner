@@ -1,0 +1,8 @@
+TextCleaner 拖放程序
+
+1. 把 Markdown、对应的 PDF，或者包含这些文件的文件夹拖到 TextCleaner.app 图标上。
+2. 程序会自动匹配同名 PDF，并进行辅助清洗。
+3. 处理结果保存在：
+   textcleaner/output/cleaned
+4. 程序不会覆盖原始 Markdown 或 PDF。
+5. 如果没有找到同名 PDF，程序仍会只使用 Markdown 完成清洗。

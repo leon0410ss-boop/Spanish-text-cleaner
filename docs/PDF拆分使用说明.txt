@@ -1,0 +1,28 @@
+大 PDF 拆分工具
+
+默认输入：~/Desktop/pdf
+默认输出：~/Desktop/pdf_split
+拆分规则：250 页及以下不拆分；超过 250 页时，每 200 页生成一个分卷
+
+使用方法：
+1. 把 PDF 放在桌面的 pdf 文件夹。
+2. 双击“拆分大PDF.command”。
+3. 超过 250 页的文件会拆分到桌面的 pdf_split 文件夹。
+
+命名示例：
+原文件.pdf
+原文件/
+  原文件_1.pdf
+  原文件_2.pdf
+
+说明：
+- 原始 PDF 不会修改或删除。
+- 250 页及以下的 PDF 不会复制到 pdf_split。
+- 再次运行时，页数正确的现有分卷会自动跳过。
+- 每份原文件拥有一个同名文件夹，避免不同文件的分卷混在一起。
+- 旧版平铺分卷会在运行时自动整理为新结构。
+- 如需改变每卷页数，可在 Terminal 中运行：
+
+Desktop/mineru-test/.venv/bin/python \
+  "Desktop/textcleaner/split_large_pdfs.py" \
+  --pages 100
