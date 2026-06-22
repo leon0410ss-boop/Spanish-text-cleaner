@@ -31,8 +31,6 @@ python3 "textcleaner V1.2.py"
 - `docs/`：项目文档与使用说明
 - `tests/`：自动测试
 - `output/`：TextCleaner 的输入、输出和日志
-- `archive/`：历史版本与人工检查记录
-- `release/`：可分发的 TextCleaner 安装包
 
 ## 测试
 
