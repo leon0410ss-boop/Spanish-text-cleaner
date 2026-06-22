@@ -6,7 +6,7 @@
 
 ## 安装与使用
 
-普通用户可从 GitHub Releases 下载 `TextCleaner-v1.2.0.zip`：
+首次安装请把项目文件夹中唯一的zip解压至程序目录中
 
 - macOS：首次运行 `1_首次安装_macOS.command`，之后把文件拖到 `TextCleaner.app`。
 - Windows：首次运行 `1_首次安装_Windows.bat`，之后把文件拖到 `2_拖放清洗_Windows.bat`。
@@ -31,6 +31,8 @@ python3 "textcleaner V1.2.py"
 - `docs/`：项目文档与使用说明
 - `tests/`：自动测试
 - `output/`：TextCleaner 的输入、输出和日志
+- `archive/`：历史版本与人工检查记录
+- `release/`：可分发的 TextCleaner 安装包
 
 ## 测试
 
@@ -40,6 +42,6 @@ python3 -m pytest
 
 详细说明：
 
-- `docs/README_Codex.md`
+- `docs/README.md`
 - `docs/PDF拆分使用说明.txt`
 - `docs/拖放程序使用说明.txt`
