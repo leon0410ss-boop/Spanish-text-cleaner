@@ -1,13 +1,17 @@
 # TextCleaner
 
 <p align="center">
+  <a href="https://github.com/leon0410ss-boop/Spanish-text-cleaner/blob/main/docs/README.md">
+    <img src="https://img.shields.io/badge/🇨🇳-中文-red?style=for-the-badge">
+  </a>
 
-[![中文](https://img.shields.io/badge/🇨🇳-中文-red?style=for-the-badge)](/docs/README.md)
+  <a href="https://github.com/leon0410ss-boop/Spanish-text-cleaner/blob/main/docs/README_EN.md">
+    <img src="https://img.shields.io/badge/🇺🇸-English-blue?style=for-the-badge">
+  </a>
 
-[![English](https://img.shields.io/badge/🇺🇸-English-blue?style=for-the-badge)](/docs/README_EN.md)
-
-[![Español](https://img.shields.io/badge/🇪🇸-Español-yellow?style=for-the-badge)](/docs/README_ES.md)
-
+  <a href="https://github.com/leon0410ss-boop/Spanish-text-cleaner/blob/main/docs/README_ES.md">
+    <img src="https://img.shields.io/badge/🇪🇸-Español-yellow?style=for-the-badge">
+  </a>
 </p>
 
 西班牙语 OCR 文本清洗工具，主要用于清洗由 MinerU、OCR或PDF解析工具生成的Markdown文本。
